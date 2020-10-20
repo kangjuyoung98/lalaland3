@@ -1,0 +1,84 @@
+
+.box{width: 90%;
+     height: 90%;
+     background-color: white;
+     position: absolute;
+     top: 5%;
+     left: 5%;
+     writing-mode: vertical-rl;
+     text-orientation: mixed;
+     text-align: center;}
+.actor{font-size: 1em;
+       font-family: 'Poiret One', cursive;
+       position: absolute;
+       left: 8%;
+       top: 33%;}
+.name{font-size: 5em;
+      font-family: 'Archivo Black', sans-serif;
+      position: absolute;
+      left: 0%;
+      top: 16%;}
+.box2{width: 80%;
+      height: 80%;
+      background-image: url(img1.jpg);
+      background-size: 120%;
+      position: absolute;
+      right: 7.5%;
+      top: 10%;
+      align-items: center;
+      border-style: solid;
+      border-width: 10px;
+      border-color: black;}
+.mini{width: 5%;
+     height: 100%;
+     background-color: white;
+     transition-property: all;
+     transition-duration: 2s;
+    transform: scale(1, 1);
+    animation: off;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    
+   float: left;}
+      .mini:hover {transform: scale(0.5,0.5);
+           animation-play-state: running;}
+            
+    @keyframes off{0% {opacity: 1}
+    100%{opacity: 0}}
+    .mini2{width: 5%;
+     height: 50%;
+     background-color: black;
+     color: white;
+     transition-property: all;
+     transition-duration: 2s;
+    transform: scale(1, 1);
+    animation: off;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    float: left;
+    }
+      .mini2:hover {transform: scale(0.5,0.5);
+           animation-play-state: running;
+           align-items: center;}
+            
+    @keyframes off{0% {opacity: 1}
+    100%{opacity: 0}}
+   .mini3{width: 5%;
+     height: 50%;
+     background-color: white;
+     transition-property: all;
+     transition-duration: 2s;
+    transform: scale(1, 1);
+    animation: off;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+     float: left;}
+      .mini3:hover {transform: scale(0.5,0.5);
+           animation-play-state: running;}
+            
+    @keyframes off{0% {opacity: 1}
+    100%{opacity: 0}}
+  
